@@ -2,6 +2,10 @@
 
 Repository for the course "Ingénierie et Interopérabilité des Systèmes Informatiques/Data interoperability and Semantics"
 
+Course Source: [https://ci.mines-stetienne.fr/i2si/interop/]()
+
+Tasks Source: [https://ci.mines-stetienne.fr/i2si/interop/evaluation.md]()
+
 It contains the all tasks asked divided in 9 folders:
 
 1. Primitive Types
