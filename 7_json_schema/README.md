@@ -1,19 +1,9 @@
-# DIoS
+# JSONSchema
 
-Repository for the course "Ingénierie et Interopérabilité des Systèmes Informatiques/Data interoperability and Semantics"
+References : 
 
-Course Source: [https://ci.mines-stetienne.fr/i2si/interop/]()
+[Street Lighting](https://github.com/smart-data-models/dataModel.Streetlighting/blob/master/Streetlight/doc/spec.md)
 
-Tasks Source: [https://ci.mines-stetienne.fr/i2si/interop/evaluation.md]()
+Here you will find :
 
-It contains the all tasks asked divided in 9 folders:
-
-1. Primitive Types
-2. Tabular Data
-3. Json
-4. XML
-5. YAML
-6. JSON-LD
-7. JSONSchema
-8. JSONPath
-9. XPath
+1. JSONSchema for Street Lighting 
