@@ -5,14 +5,15 @@
     "last_update_day":"Friday",
     "last_update_hour":"18:00",
     "PM2.5":"127",
+    "description":"Unhealthy for sensitive people",
     "PM10":"68",
     "O3":"20",
     "NO2":"31",
     "SO2":"5",
     "CO":"7",
-    "Temp.":"13",
-    "Pressure":"1011",
-    "Humidity":"27",
-    "Wind":"0"
+    "temperature":"13",
+    "pressure":"1011",
+    "humidity":"27",
+    "wind":"0"
 }
 

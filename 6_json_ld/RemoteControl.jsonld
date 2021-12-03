@@ -1,0 +1,67 @@
+{
+    "@context":"https://schema.org",
+    "@type":"Thing",
+    "name":"Remote Control",
+    "description":"Is used to control the Smart TV",
+    "potentialAction": [
+        {
+            "@type":"Action",
+            "result":"Remote Control turned on the Smart TV",
+            "object":
+            {
+                "@type":"Thing",
+                "name":"Smart TV"
+            }
+        },
+
+        {
+            "@type":"Action",
+            "result":"Remote Control changed the channel on the Smart TV",
+            "object":
+            {
+                "@type":"Thing",
+                "name":"Smart TV"
+            }
+        },
+
+        {
+            "@type":"Action",
+            "result":"Remote Control enabled voice control on the Smart TV",
+            "object":
+            {
+                "@type":"Thing",
+                "name":"Smart TV"
+            }
+        },
+
+        {
+            "@type":"Action",
+            "result":"Remote Control opened Netflix on the Smart TV",
+            "object":
+            {
+                "@type":"Thing",
+                "name":"Smart TV"
+            }
+        },
+
+        {
+            "@type":"Action",
+            "result":"Remote Control searched something on the internet browser of the Smart TV",
+            "object":
+            {
+                "@type":"Thing",
+                "name":"Smart TV"
+            }
+        },
+
+        {
+            "@type":"Action",
+            "result":"Remote Control turned off the Smart TV",
+            "object":
+            {
+                "@type":"Thing",
+                "name":"Smart TV"
+            }
+        }
+    ]
+}
