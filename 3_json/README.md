@@ -6,3 +6,4 @@ Here you will find :
 2. ```AirQuality.json``` file 
 3. Screenshot showing the information base to write ```AirQuality.json```
 4. Screenshots showing colouring and recognition of errors
+5. Screenshots showing online validation of the files
