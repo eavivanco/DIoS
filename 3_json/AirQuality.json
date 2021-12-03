@@ -1,0 +1,18 @@
+
+{
+    "id":"1",
+    "country":"Shanghai",
+    "last_update_day":"Friday",
+    "last_update_hour":"18:00",
+    "PM2.5":"127",
+    "PM10":"68",
+    "O3":"20",
+    "NO2":"31",
+    "SO2":"5",
+    "CO":"7",
+    "Temp.":"13",
+    "Pressure":"1011",
+    "Humidity":"27",
+    "Wind":"0"
+}
+

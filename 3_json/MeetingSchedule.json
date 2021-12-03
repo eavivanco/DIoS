@@ -1,0 +1,145 @@
+{
+    "meeting":[
+
+        {
+            "id":"1",
+            "day":"monday",
+            "room":"418 VP temporaire",
+            "places":"12",
+            "starting_time":"9:00",
+            "ending_time":"10:00",
+            "topic":"Soutenance master"
+        },
+
+        {
+            "id":"2",
+            "day":"monday",
+            "room":"418 VP temporaire",
+            "places":"12",
+            "starting_time":"10:30",
+            "ending_time":"12:00",
+            "topic":"Réunion préparation CIRPe 2021"
+        },
+
+        {
+            "id":"3",
+            "day":"monday",
+            "room":"418 VP temporaire",
+            "places":"12",
+            "starting_time":"16:00",
+            "ending_time":"17:30",
+            "topic":"Soutenance stage Kevin AROCA"
+        },
+
+        {
+            "id":"4",
+            "day":"tuesday",
+            "room":"300 VP provisoire",
+            "places":"12",
+            "starting_time":"11:30",
+            "ending_time":"13:00",
+            "topic":"Soutenance suivi de these"
+        },
+
+        {
+            "id":"5",
+            "day":"tuesday",
+            "room":"300 VP provisoire",
+            "places":"12",
+            "starting_time":"14:30",
+            "ending_time":"16:00",
+            "topic":"PhD Meeting"
+        },
+
+        {
+            "id":"6",
+            "day":"tuesday",
+            "room":"322",
+            "places":"12",
+            "starting_time":"14:00",
+            "ending_time":"16:30",
+            "topic":"Réunion these Camilo"
+        },
+
+        {
+            "id":"7",
+            "day":"tuesday",
+            "room":"418 VP temporaire",
+            "places":"12",
+            "starting_time":"9:00",
+            "ending_time":"10:30",
+            "topic":"Présentation Territoire DPI"
+        },
+
+        {
+            "id":"8",
+            "day":"tuesday",
+            "room":"418 VP temporaire",
+            "places":"12",
+            "starting_time":"11:00",
+            "ending_time":"12:00",
+            "topic":"Soutenance TFE Ghazlane"
+        },
+
+        {
+            "id":"9",
+            "day":"tuesday",
+            "room":"418 VP temporaire",
+            "places":"12",
+            "starting_time":"14:00",
+            "ending_time":"16:00",
+            "topic":"Réunion SobrIT"
+        },
+
+        {
+            "id":"10",
+            "day":"tuesday",
+            "room":"418 VP temporaire",
+            "places":"12",
+            "starting_time":"16:00",
+            "ending_time":"17:00",
+            "topic":"Réunion ProTech (SIRAM, IT'm)"
+        },
+
+        {
+            "id":"11",
+            "day":"wednesday",
+            "room":"300 VP provisoire",
+            "places":"12",
+            "starting_time":"15:50",
+            "ending_time":"18:50",
+            "topic":"Réunion SOS Mediterrannée"
+        },
+
+        {
+            "id":"12",
+            "day":"wednesday",
+            "room":"418 VP temporaire",
+            "places":"12",
+            "starting_time":"11:00",
+            "ending_time":"12:30",
+            "topic":"Réunion de projet SIRAM"
+        },
+
+        {
+            "id":"13",
+            "day":"wednesday",
+            "room":"418 VP temporaire",
+            "places":"12",
+            "starting_time":"14:00",
+            "ending_time":"16:30",
+            "topic":"DIR FAYOL"
+        },
+
+        {
+            "id":"14",
+            "day":"wednesday",
+            "room":"418 VP temporaire",
+            "places":"12",
+            "starting_time":"17:00",
+            "ending_time":"18:00",
+            "topic":"TFE Thomas SOLANAS"
+        }
+
+    ]
+}

@@ -1,19 +1,8 @@
-# DIoS
+# Json
 
-Repository for the course "Ingénierie et Interopérabilité des Systèmes Informatiques/Data interoperability and Semantics"
+Here you will find :
 
-Course Source: [https://ci.mines-stetienne.fr/i2si/interop/]()
-
-Tasks Source: [https://ci.mines-stetienne.fr/i2si/interop/evaluation.md]()
-
-It contains the all tasks asked divided in 9 folders:
-
-1. Primitive Types
-2. Tabular Data
-3. Json
-4. XML
-5. YAML
-6. JSON-LD
-7. JSONSchema
-8. JSONPath
-9. XPath
+1. ```MeetingSchedule.json``` file
+2. ```AirQuality.json``` file 
+3. Screenshot showing the information base to write ```AirQuality.json```
+4. Screenshots showing colouring and recognition of errors
