@@ -14,6 +14,6 @@ Tasks Source: [Tasks](https://ci.mines-stetienne.fr/i2si/interop/evaluation.md)
 4. XML
 5. YAML
 6. JSON-LD :heavy_check_mark:
-7. JSONSchema
-8. JSONPath
+7. JSONSchema :heavy_check_mark:
+8. JSONPath :heavy_check_mark:
 9. XPath
