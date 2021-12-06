@@ -1,19 +1,18 @@
-# DIoS
+# JSONPath
 
-Repository for the course "Ingénierie et Interopérabilité des Systèmes Informatiques/Data interoperability and Semantics"
+Here you will find :
 
-Course Source: [https://ci.mines-stetienne.fr/i2si/interop/]()
 
-Tasks Source: [https://ci.mines-stetienne.fr/i2si/interop/evaluation.md]()
+1. What is the rating value of the movie? 
+   1. Code : ```$..aggregateRating.ratingValue```
+   2. Response : 8.4
+   
+2. What is the IMDB identifier for Rebecca Ferguson?
+   1. Code : ```$..actor[?(@.name == "Rebecca Ferguson")].url```
+   2. Response : "/name/nm0272581/"
 
-It contains the all tasks asked divided in 9 folders:
+3. Who rated the film with only 1 star
+   1. Code : ```$.reviews[?(@.reviewRating.ratingValue == 1)].author.name``
+   2. Response : "wmnac-84309"
 
-1. Primitive Types
-2. Tabular Data
-3. Json
-4. XML
-5. YAML
-6. JSON-LD
-7. JSONSchema
-8. JSONPath
-9. XPath
+
