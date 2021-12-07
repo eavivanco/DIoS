@@ -1,19 +1,12 @@
-# DIoS
+# YAML
 
-Repository for the course "Ingénierie et Interopérabilité des Systèmes Informatiques/Data interoperability and Semantics"
+Here you will find a `SmartHome.yml` file where you can :
 
-Course Source: [https://ci.mines-stetienne.fr/i2si/interop/]()
+1. `GET` the resource associated to a Smart Home to get the list of rooms
+2. `GET` the resource associated to a room (the id is a URL parameter) to get the list of connected devices it contains. Focus on two types of devices: color light bulbs, and smart TVs.
+3. `GET` the resource associated to a connected device (the id of the room and the id of the connected device are URL parameters) to obtain the current status of the device.
+4. `PUT` the resource associated to a connected device (same path as before) to change the status of the device.
 
-Tasks Source: [https://ci.mines-stetienne.fr/i2si/interop/evaluation.md]()
 
-It contains the all tasks asked divided in 9 folders:
 
-1. Primitive Types
-2. Tabular Data
-3. Json
-4. XML
-5. YAML
-6. JSON-LD
-7. JSONSchema
-8. JSONPath
-9. XPath
+
