@@ -1,19 +1,28 @@
-# DIoS
+# XPath
 
-Repository for the course "Ingénierie et Interopérabilité des Systèmes Informatiques/Data interoperability and Semantics"
+Online validation tool : [Validation XPath](http://xpather.com/)
 
-Course Source: [https://ci.mines-stetienne.fr/i2si/interop/]()
+Here you will find :
 
-Tasks Source: [https://ci.mines-stetienne.fr/i2si/interop/evaluation.md]()
+1. What is the artist id?
+   1. Code : ```.//artist/@*[self::id]```
+   2. Response : 76c9a186-75bd-436a-85c0-823e3efddb7f
+   3. Validation Screenshot : ```1_Val1.png```
+   
+2. What is the duration of the track Summertime ? (i have no idea why is not working)
+   1. Code : ```.//recording[title = "Summertime"]/length```
+   2. Response : 241000
 
-It contains the all tasks asked divided in 9 folders:
+3. What is the duration of the longest track? (i have no idea why is not working)
+   1. Code : ```.//recording[length = max(/recording/length)]/length```
+   2. Response : 480000
 
-1. Primitive Types
-2. Tabular Data
-3. Json
-4. XML
-5. YAML
-6. JSON-LD
-7. JSONSchema
-8. JSONPath
-9. XPath
+4. What is the total duration of the album?
+   1. Code : ```sum(.//recording/length)```
+   2. Response : 2503305
+   3. Validation Screenshot : ```4_Val4.png```
+
+5. What are the names of the tracks that were first released before 01/01/1970 ?
+   1. Code : ```.//recording[number(translate(first-release-date,'-','')) < 19700101]/title```
+   2. Response : Piece of My Heart, Summertime, Try (Just a Little Bit Harder), Bye Bye Baby
+   3. Validation Screenshot : ```5_Val5.png```
