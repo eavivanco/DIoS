@@ -1,19 +1,10 @@
-# DIoS
+# XML
 
-Repository for the course "Ingénierie et Interopérabilité des Systèmes Informatiques/Data interoperability and Semantics"
+The syntax files were validated on : [XML Validation](https://www.xmlvalidation.com/)
 
-Course Source: [https://ci.mines-stetienne.fr/i2si/interop/]()
+Here you will find : 
 
-Tasks Source: [https://ci.mines-stetienne.fr/i2si/interop/evaluation.md]()
+1. A file named ```MusicBrainz.xml`` that contains the description requested from the webpage linked.
+2. A file named ```IMT.xml`` that contains the description requested of the badge showed.
 
-It contains the all tasks asked divided in 9 folders:
 
-1. Primitive Types
-2. Tabular Data
-3. Json
-4. XML
-5. YAML
-6. JSON-LD
-7. JSONSchema
-8. JSONPath
-9. XPath

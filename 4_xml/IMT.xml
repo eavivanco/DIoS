@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<badge name = "IMT">
+<property name = "Logo">
+    <image>Convert.ToBase64String("/IMT_Logo.png"")</image>
+</property>
+<property name = "Type">
+    <description> Public, Grand établissement EPSCP </description>
+</property>
+<property name = "Established">
+    <date> 1996 </date>
+</property>
+<property name = "Chancellor">
+    <person id = "Chancellor"> Philippe Jamet </person>
+</property>
+<property name = "President">
+    <person id = "NamePresident"> Claude Imauven </person>
+</property>
+<property name = "AdministrativeStaff">
+    <quantity id = "AdministrativeStaff"> 4,450 </quantity>
+</property>
+<property name = "Students">
+    <quantity id = "Students"> 13,400 </quantity>
+</property>
+<property name = "Postgraduates">
+    <quantity id = "Postgraduates"> 1,560 </quantity>
+</property>
+<property name = "Location">
+    <city id = "1"> Albi </city>
+    <city id = "2"> Ales </city>
+    <city id = "3"> Brest </city>
+    <city id = "4"> Douai </city>
+    <city id = "5"> Evry </city>
+    <city id = "6"> Lille </city>
+    <city id = "7"> Nancy </city>
+    <city id = "8"> Nantes </city>
+    <city id = "9"> Paris </city>
+    <city id = "10"> Saint-Étienne </city>
+    <city id = "11"> Sophia-Antipolis </city>
+    <country> France </country>
+    <latitude> 48.7128ºN </latitude>
+    <longitude> 2.2003ºE </longitude>
+</property>
+<property name = "Website">
+    <url> http://www.imt.fr/en/ </url>
+</property>
+</badge>

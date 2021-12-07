@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<page name = "MusicBrainz - Disque d'or">
+    <badge name = "Summary">
+        <paragraph name ="Release information">
+            <barcode> [none] </barcode>
+            <format> 12\" Vinyl </format>
+            <length> 43:18 </length>
+        </paragraph>
+        <paragraph name ="Additional details">
+            <type> Album + Compilation </type>
+            <status> Official </status>
+            <language> French </language>
+            <script> Latin </script>
+            <dataQuality> Normal </dataQuality>
+        </paragraph>
+        <paragraph name ="Labels">
+            <org> Columbia </org>
+            <tag> 2C 064 16053 </tag>
+        </paragraph>
+        <paragraph name ="Release events">
+            <country> France </country>
+            <date> 1974 </date>
+        </paragraph>
+        <paragraph name ="Release group rating">
+            <rating> </rating>
+        </paragraph>
+        <paragraph name ="Release group reviews">
+            No one has reviewed this release group yet. Be the first to write a review.
+        </paragraph>
+        <paragraph name ="Genres">
+            (none)
+        </paragraph>
+        <paragraph name ="Other tags">
+            (none)
+        </paragraph>
+        <paragraph name ="External links">
+            <link> https://www.discogs.com/release/900183 </link>
+        </paragraph>
+        <paragraph name ="Release group external links">
+            <link> https://www.discogs.com/master/215818 </link>
+        </paragraph>
+        <paragraph name ="Editing">
+        </paragraph>
+    </badge>
+    <badge name = "Tracklist">
+        <track id = "A1">
+            <title> La Vie en rose </title>
+            <song id ="recordingOf"> La Vien en rose </song>
+            <person id ="lyricist"> Édith Piaf </person>
+            <person id ="composer"> Louiguy </person>
+            <person id ="composer">  Édith Piaf </person>
+            <org id ="publisher1"> Éditions Beuscher Arpège </org>
+            <org id ="publisher2"> ピアーミュージック </org>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 3:02 </length>
+        </track>
+        <track id = "A2">
+            <title> Hymne à l’amour </title>
+            <song id ="recordingOf"> Hymne à l’amour </song>
+            <person id ="lyricist"> Édith Piaf </person>
+            <person id ="composer"> Marguerite Monnot </person>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 3:23 </length>
+        </track>
+        <track id = "A3">
+            <title> J’m’en fous pas mal </title>
+            <song id ="recordingOf"> J’m’en fous pas mal </song>
+            <person id ="lyricist"> Michel Emer </person>
+            <person id ="vocals"> Édith Piaf </person>
+            <person id ="conductor"> Guy Luypaerts  </person>
+            <person id ="composer"> Michel Emer </person>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 4:16 </length>
+        </track>
+        <track id = "A4">
+            <title> Johnny, tu n’es pas un ange </title>
+            <song id ="recordingOf"> Johnny, tu n’es pas un ange </song>
+            <person id ="lyricist1"> Liviu Deleanu </person>
+            <person id ="lyricist2"> Paddy Roberts </person>
+            <person id ="lyricist3"> Marcel Stellman </person>
+            <person id ="vocals"> Édith Piaf </person>
+            <person id ="conductor"> Robert Chauvigny </person>
+            <person id ="composer1"> Les Paul </person>
+            <person id ="composer2"> Richard Stein </person>
+            <person id ="transalator"> Francis Lemarque </person>
+            <song id ="translatedFrom"> Johnny (Is the Boy for Me) </song>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 2:09 </length>
+        </track>
+        <track id ="A5">
+            <title> Bravo pour le clown ! </title>
+            <song id ="recordingOf"> Bravo pour le clown ! </song>
+            <person id ="lyricist"> Henri Contet </person>
+            <person id ="composer"> Louiguy </person>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 3:34 </length>
+        </track>
+        <track id ="A6">
+            <title> L’Accordéoniste </title>
+            <song id ="recordingOf"> L’Accordéoniste </song>
+            <person id ="lyricist"> Michel Emer </person>
+            <person id ="composer"> Michel Emer </person>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 3:02 </length>
+        </track>
+        <track id ="A7">
+            <title> L’Homme à la moto </title>
+            <song id ="recordingOf"> L’Homme à la moto </song>
+            <person id ="lyricist1"> Jerry Leiber </person>
+            <person id ="lyricist2"> JMike Stoller </person>
+            <person id ="composer1"> Jerry Leiber </person>
+            <person id ="composer2"> Mike Stoller </person>
+            <person id ="transalator"> Jean Dréjac </person>
+            <song id ="translatedFrom"> Black Denim Trousers and Motorcycle Boots </song>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 2:02 </length>
+        </track>
+        <track id ="B1">
+            <title> La Foule </title>
+            <song id ="recordingOf"> La Foule </song>
+            <person id ="lyricist"> Michel Rivgauche </person>
+            <person id ="composer"> Ángel Cabral </person>
+            <org id ="publisher"> Éditions Métropolitaines </org>
+            <song id ="translatedFrom"> Que nadie sepa mi sufrir </song>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 2:54 </length>
+        </track>
+        <track id ="B2">
+            <title> Mon manège a moi (Tu me fais tourner la tête) </title>
+            <song id ="recordingOf"> Mon manège a moi (Tu me fais tourner la tête) </song>
+            <person id ="vocals"> Édith Piaf </person>
+            <person id ="lyricist"> Jean Constantin </person>
+            <person id ="composer"> Norbert Glanzberg </person>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 2:57 </length>
+        </track>
+        <track id ="B3">
+            <title> Milord </title>
+            <song id ="recordingOf"> Milord </song>
+            <person id ="vocals"> Édith Piaf </person>
+            <person id ="conductor"> Robert Chauvigny </person>
+            <person id ="lyricist"> Georges Moustaki </person>
+            <person id ="composer"> Marguerite Monnot </person>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> 4/5 </rating>
+            <length> 4:27 </length>
+        </track>
+        <track id ="B4">
+            <title> Non, je ne regrette rien </title>
+            <song id ="recordingOf"> Non, je ne regrette rien </song>
+            <person id ="vocals"> Édith Piaf </person>
+            <person id ="conductor"> Robert Chauvigny </person>
+            <person id ="lyricist"> Michel Vaucaire </person>
+            <person id ="composer"> Charles Dumont </person>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> 5/5 </rating>
+            <length> 2:23 </length>
+        </track>
+        <track id ="B5">
+            <title> Les Mots d’amour </title>
+            <song id ="recordingOf"> Les Mots d’amour </song>
+            <person id ="lyricist"> Michel Rivgauche </person>
+            <person id ="composer"> Charles Dumont </person>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 3:24 </length>
+        </track>
+        <track id ="B6">
+            <title> Mon Dieu </title>
+            <song id ="recordingOf"> Mon Dieu </song>
+            <person id ="lyricist"> Michel Vaucaire </person>
+            <person id ="composer"> Charles Dumont </person>
+            <person id ="artist"> Édith Piaf </person>
+            <rating> </rating>
+            <length> 3:20 </length>
+        </track>
+        <track id ="B7">
+            <title> À quoi ça sert l’amour </title>
+            <song id ="recordingOf"> À quoi ça sert l’amour </song>
+            <person id ="vocals1"> Édith Piaf </person>
+            <person id ="vocals2"> Théo Sarapo </person>
+            <person id ="conductor"> Jean Leccia </person>
+            <person id ="lyricist"> Michel Emer </person>
+            <person id ="composer"> Michel Emer </person>
+            <person id ="artist1"> Édith Piaf </person>
+            <person id ="artist2"> Théo Sarapo </person>
+            <rating> </rating>
+            <length> 2:25 </length>
+        </track>
+    </badge>
+</page>
