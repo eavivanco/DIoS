@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
   title: Sample API
   description: Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.
-  version: 0.1.9
+  version: 0.1.1
 servers:
     url: http//api.example.org/
     description: Optional server description, e.g. Main (production) server
@@ -10,54 +10,83 @@ servers:
 paths:
   - /:
       get:
-        summary: Returns a list of users.
+        summary: Returns a list of rooms.
         description: Optional extended description in CommonMark or HTML.
         responses:
-          '200':    # status code
-            description: A JSON array of user names
+          '200':  
+            description: A JSON array of room names
             content:
               application/json:
                 schema: 
                   type: array
-                  items: 
-                    type: string
-  - /room:
+                  items:
+                    properties: 
+                      room name:
+                        type: string
+                        example: kitchen
+
+  - /{roomId}:
       get:
-        summary: Returns a list of users.
+        summary: Returns a list of connected devices associated with the roomId given (URL).
         description: Optional extended description in CommonMark or HTML.
         responses:
-          '200':    # status code
-            description: A JSON array of user names
+          '200':   
+            description: A JSON array of color light bulbs and smart TVs
             content:
               application/json:
                 schema: 
                   type: array
-                  items: 
-                    type: string
+                  items:
+                    properties:
+                      device type: 
+                        type: string
+                        example: color light bulb
+                      device name:
+                        type: string
+                        example: kitchen light
 
-  - /device:
+          '400':
+          description: The specified room ID is invalid (not a number).
+          '404':
+            description: A room with the specified ID was not found.
+          default:
+            description: Unexpected error
+
+  - /roomId/{deviceId}:
       - get:
-          summary: Returns a list of users.
+          summary: Returns the status of the device associated with the deviceId given (URL)
           description: Optional extended description in CommonMark or HTML.
           responses:
-            '200':    # status code
-              description: A JSON array of user names
+            '200':  
+              description: A string of the device status
               content:
                 application/json:
-                  schema: 
-                    type: array
-                    items: 
-                      type: string
+                  schema:
+                    items:
+                    properties:
+                      device status: 
+                        type: string
+                        example: connected to kitchen
+            '400':
+            description: The specified device ID is invalid (not a number).
+            '404':
+              description: A device with the specified ID was not found in the current room.
+            default:
+              description: Unexpected error
       - put:
-          summary: Returns a list of users.
+          summary: Update the status of the device associated with the deviceId given (URL)
           description: Optional extended description in CommonMark or HTML.
-          responses:
-            '200':    # status code
-              description: A JSON array of user names
-              content:
+          requestBody:
+            required: true
+            content:
                 application/json:
-                  schema: 
-                    type: array
-                    items: 
-                      type: string
+                  schema:
+                    items:
+                    properties:
+                      device status: 
+                        type: string
+                        example: connected
 
+            responses:
+            '200':   
+              description: The new status was setted succesfully
