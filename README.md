@@ -12,7 +12,7 @@ Tasks Source: [Tasks](https://ci.mines-stetienne.fr/i2si/interop/evaluation.md)
 2. Tabular Data :heavy_check_mark:
 3. Json :heavy_check_mark:
 4. XML :heavy_check_mark:
-5. YAML
+5. YAML :heavy_check_mark:
 6. JSON-LD :heavy_check_mark:
 7. JSONSchema :heavy_check_mark:
 8. JSONPath :heavy_check_mark:
